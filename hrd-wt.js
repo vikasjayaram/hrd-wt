@@ -60,7 +60,7 @@ function getAccessToken(context, cb) {
  };
 
 /*
-* Get the complete user profile with the read:user_idp_token scope
+* Get the connections read:connections scope
 */
 function getConnections(context, cb){
    const options = {
